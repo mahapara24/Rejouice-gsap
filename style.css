@@ -1,0 +1,67 @@
+@font-face {
+  font-family: nb;
+  src: url(./NBInternationalProBoo.ttf);
+}
+@font-face {
+  font-family: rejoy;
+  src: url(./Rejouice-Headline.ttf);
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "nb";
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#page1 {
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+  position: relative;
+}
+
+#page1 video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+#page1-content {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.11);
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+
+  color: #fff;
+}
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 2vw 3vh;
+}
+nav h3 {
+  font-size: 1.5vw;
+  font-weight: 100;
+}
+nav h4 {
+  font-size: 1.4vw;
+  font-weight: 100;
+}
+#page1-content h1 {
+  font-family: "rejoy";
+  font-size: 26vw;
+  font-weight: 500;
+  line-height: 27vw;
+}
