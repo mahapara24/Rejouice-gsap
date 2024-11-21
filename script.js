@@ -23,9 +23,27 @@ function cursorEffect() {
 cursorEffect();
 
 function page2Animation() {
-  gsap.from(".elem h1", {
+  gsap.from(" h1", {
     y: 120,
     stagger: 0.2,
+    duration: 1,
+    scrollTrigger: {
+      trigger: "#page2",
+      scroller: "body",
+      start: "top 47%",
+      end: "top 46%",
+
+      scrub: 2,
+    },
+  });
+}
+page2Animation();
+
+gsap.from("page2nav h3"),
+  {
+    x: 120,
+    stagger: 0.2,
+    duration: 1,
     duration: 1,
     scrollTrigger: {
       trigger: "#page2",
@@ -35,6 +53,4 @@ function page2Animation() {
       markers: true,
       scrub: 2,
     },
-  });
-}
-page2Animation();
+  };
