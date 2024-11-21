@@ -21,3 +21,20 @@ function cursorEffect() {
   });
 }
 cursorEffect();
+
+function page2Animation() {
+  gsap.from(".elem h1", {
+    y: 120,
+    stagger: 0.2,
+    duration: 1,
+    scrollTrigger: {
+      trigger: "#page2",
+      scroller: "body",
+      start: "top 47%",
+      end: "top 46%",
+      markers: true,
+      scrub: 2,
+    },
+  });
+}
+page2Animation();
