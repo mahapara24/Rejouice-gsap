@@ -35,6 +35,7 @@ body {
   justify-items: center;
   justify-content: center;
   place-items: center;
+  transform: translate(-50%, -50%);
 }
 #cursor h5 {
   font-size: 1.3vw;
@@ -53,7 +54,7 @@ body {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.11);
   position: relative;
-  z-index: 2;
+  z-index: 10;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -83,4 +84,10 @@ nav h4 {
 }
 #page1-content h1 span {
   font-family: "rejoy";
+}
+
+#page2 {
+  height: 100vh;
+  width: 100%;
+  background-color: beige;
 }
