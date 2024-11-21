@@ -24,6 +24,22 @@ body {
   background-color: white;
   position: relative;
 }
+#cursor {
+  height: 7.5vw;
+  width: 7.5vw;
+  background-color: #ff5f38;
+  border-radius: 50%;
+  position: fixed;
+  z-index: 9;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  place-items: center;
+}
+#cursor h5 {
+  font-size: 1.3vw;
+  font-weight: 400;
+}
 
 #page1 video {
   height: 100%;
